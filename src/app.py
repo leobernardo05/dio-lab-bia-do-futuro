@@ -5,7 +5,7 @@ import streamlit as st
 
 # ============== config ============
 OLLAMA_URL = 'http://localhost:11434/api/generate'
-MODELO = 'gpt-oss:120b-cloude'
+MODELO = 'llama3'
 
 # ============== carregar dados =========
 with open('./data/perfil_investidor.json', 'r', encoding='utf-8') as f:
